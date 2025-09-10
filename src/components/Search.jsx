@@ -15,7 +15,23 @@
 //   )
 // }
 
+import { useEffect, useRef } from 'react'
+
 export function Search({ query, setQuery }) {
+  const InputEl = useRef(null)
+  useEffect(() => {
+    InputEl.current.focus()
+    function callback(e) {
+      if (document.activeElement === InputEl.current) return
+
+      if (e.code === 'Enter') {
+        InputEl.current.focus()
+        setQuery('')
+      }
+    }
+    document.addEventListener('keydown', callback)
+    return () => document.removeEventListener('keydown', callback)
+  }, [setQuery])
   return (
     <input
       className="search"
@@ -23,6 +39,7 @@ export function Search({ query, setQuery }) {
       placeholder="Search movies..."
       value={query}
       onChange={e => setQuery(e.target.value)}
+      ref={InputEl}
     />
   )
 }
