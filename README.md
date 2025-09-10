@@ -83,12 +83,14 @@ Deployed on Vercel for production:
 7. The user can delete movies from the Watched List anytime
 
 
+
 ## 📸 Screenshots/Video Demo
 <img src="https://github.com/Austine247-droid/Movie-App/blob/main/movieMate.png?raw=true"> 
 
 
 
 https://github.com/user-attachments/assets/464a2bdf-a409-4f03-a36a-a3caa0810396
+
 
 
 
@@ -108,6 +110,7 @@ https://github.com/user-attachments/assets/464a2bdf-a409-4f03-a36a-a3caa0810396
 
 
 
+
 ## 💡 Future Improvements
 - 🌙 Dark mode toggle
 - 👨‍💻 3D layouts
@@ -115,7 +118,8 @@ https://github.com/user-attachments/assets/464a2bdf-a409-4f03-a36a-a3caa0810396
 - 🔗 Integration with other APIs (e.g., TMDB)
 
 
+
 ## 👨‍💻 Author
-**Ugberaese Augustine Osariemen**
-**LinkedIn**: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/augustine-ugberaese/)
+**Ugberaese Augustine Osariemen** <br>
+**LinkedIn**: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/augustine-ugberaese/) <br>
 **GitHub**: [Github-profile](https://github.com/Austine247-droid)
